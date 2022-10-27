@@ -11,3 +11,15 @@ body {
     font-weight: 300;
 }
 
+/* headings and logo */
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+
+  #logo {
+    float: left;
+  }
+
