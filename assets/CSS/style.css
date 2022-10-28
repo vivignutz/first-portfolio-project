@@ -1,39 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300&display=swap');
 
-* {
+body {
   margin: 0;
   padding: 0;
   border: none;
-}
-
-body {
   font-family: Lato, Merriweather;
   font-weight: 300;
+  overflow-wrap: break-word;  /* nicht sicher, ob es so ist */
+}
+
+body nav {
+  position: sticky;
+  top: 0;
 }
 
 /* headings and logo */
-
 .header img {
   float: left;
   width: 100px;
   height: 100px;
-  background-color: #040404;  /* resolver */
+  background-color: black;  /* to be solved */
 }
 
 #logo {
   float: left;
 }
 
-/* navigation links */
-
+/* nav links */
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
-}
-
-#menu, #logo {
   line-height: 75px;
-
 }
   
 #menu li {
@@ -53,4 +50,35 @@ body {
 
 .active {
   border-bottom: 1px solid #3a3a3a;
+}
+
+/* wrapper parallax */
+.wrapper {
+  width: 100%;
+  margin: 0 auto; /* 0 oben und unten // rechts und links zentralisieren */
+}
+
+.main {
+  display: block;
+  background-color: #fff;
+}
+
+.content {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+  padding: 0 20px;  /* 0 oben und unten // rechts und links zentralisieren */
+}
+
+section.parallax p {    /* uma section q dentro tem um modulo parallax (envolve todas elas) */
+  margin-bottom: 40px;  
+}  
+
+section.parallax:last-child {
+  margin-bottom: 0; /* ultimo filho não tem margin */
+}
+
+  footer {
+    position: sticky;
+    bottom: 0;
 }
