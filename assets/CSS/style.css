@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300&display=swap');
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   border: none;
@@ -11,19 +12,25 @@ body {
 
 body nav {
   position: sticky;
-  top: 0;
+  top: 0;;
 }
 
 /* headings and logo */
-.header img {
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;  /* to be solved */
+  z-index:100000 !important;
+}
+
+img {
+  border-radius: 10%;
   float: left;
   width: 100px;
   height: 100px;
-  background-color: black;  /* to be solved */
-}
-
-#logo {
-  float: left;
 }
 
 /* nav links */
@@ -50,6 +57,11 @@ body nav {
 
 .active {
   border-bottom: 1px solid #3a3a3a;
+}
+
+h1 {
+  color: #3a3a3a;
+  font-weight: 900;
 }
 
 /* wrapper parallax */
@@ -119,11 +131,24 @@ section.module.parallax-2 {
   background-image: url('../images/berlin-brandenburger-tor.jpg');
 }
 
-section.module.parallax h1 {
+.caption span.border {
+  background-color: #3a3a3a;
+  color: #fff;
+  padding: 18px;
+  padding-left: 20%;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 10px;
+  opacity : 0.8
+
+}
+
+section.module.parallax.parallax h1 {
   color: #fff;
   text-align: center;
   font-size: 60px;
-  font-weight: 900;
+  font-weight: bolder;
   z-index: 50;
   text-transform: uppercase;
 }
@@ -132,7 +157,7 @@ section.module.parallax h2 {
   color: #3a3a3a;
   text-align: center;
   font-size: 60px;
-  font-weight: 300;
+  font-weight: bolder;
   z-index: 50;
   text-transform: uppercase;
 }
@@ -141,3 +166,4 @@ section.module.parallax h2 {
     position: sticky;
     bottom: 0;
 }
+
