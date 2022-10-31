@@ -190,7 +190,6 @@ section.module.parallax h2 {
 #center-about {
   width: 33%;
   margin: 0 auto;
-  background-color: green;
 }
 
 hr {
@@ -221,6 +220,29 @@ hr {
 
 .right-about-heading p {
   text-align: right;
+}
+
+#why-podnagringa {
+  text-align: center;
+  margin: 20px;
+  font-size: 280%;
+}
+
+#photo-container {
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  border-style: solid;
+  border-color: #fdbed8;
+  border-width: 1px;
+  border-radius: 30%;
+  margin: 0 auto;
+}
+
+#photo-cover-bg {
+  background: url('../images/center-image.jpg') no-repeat center center;
+  height: 100%;
+  border-radius: 30%;
 }
 
 
