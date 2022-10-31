@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather+Sans:wght@300&display=swap');
 
+
 html, body {
+  scroll-behavior: smooth;
   height: 100%;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: none;
-  scroll-behavior: smooth;
   font-family: Lato, Merriweather;
   font-weight: 300;
 }
@@ -15,6 +20,7 @@ html, body {
   font-size: 110%;
   letter-spacing: 4px;
   line-height: 75px;
+  align-items: center ;
 }
   
 #menu li {
