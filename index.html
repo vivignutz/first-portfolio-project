@@ -13,11 +13,13 @@
 </head>
 
 <body>
-    <header>
+    <!-- header starts here -->    
+    <header class="header" id="my-header">
         <a href="index.html">
             <img src="assets/images/podnagringa-logo1.png" alt="podnagringa" id="logo"/>
         </a>
 
+        <!-- navigation menu starts here -->     
         <nav>
             <ul id="menu">
                 <li> 
@@ -33,46 +35,54 @@
         </nav>
     </header>
 
-    <div class="wrapper">
-        <main>
-            <section class="module parallax parallax-1">
-                <div class="caption">
-                    <span class="border">PodNagringa Podcast</span>
-                </div>
-            </section>    
-        
-            
-            <section id="module parallax text">
+    <!-- parallax container starts here --> 
+    <main class="parallax-container">
+        <section class="module parallax parallax-1">
+            <div class="caption">
+                <span class="border">PodNagringa Podcast</span>                
+            </div>
+        </section>    
+               
+        <section id="module parallax text">
                 <h1>Why to follow this Podcast?</h1>
-                <div id="left-about">Left</div>
-                <div id="right-about">Right</div>
-                <div id="center-about">Center</div>
-            </section>
-                
-                <!-- 
-                <div class="container">
-                    <h1>The idea, dates and times</h1>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ut, ad nostrum fuga recusandae quasi harum tempora, quis ipsam quisquam quia ea est! Voluptates culpa praesentium odit optio incidunt provident?
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur ut, ad nostrum fuga recusandae quasi harum tempora, quis ipsam quisquam quia ea est! Voluptates culpa praesentium odit optio incidunt provident?
-                    </p>
-                    <p>
-                        Some explanation about the dates, information about our plattforms, etc. Bringing to Brazilians people the sense of community and helpfulness. 
-                    </p>
-                </div>    
-            </section> -->
+                <div id="left-about">
+                    <div class="left-about-heading">
+                        <h2>Inspire yourself!</h2>
+                        <hr>
+                        <p>Find your motivation in the stories of those who have succeeded in their dreams to live in Europe.</p>
+                    </div>
 
-            <section class="module parallax parallax-2">
-                <div class="caption">
-                    <span class="border">From Berlin to the world</span>
+                    <div class="left-about-heading">
+                        <h2>Every Week new History</h2>
+                        <hr>
+                        <p>Connect with us every Wednesday to hear the stories of Brazilians who emigrated to other countries.</p>
+                    </div>
                 </div>
-            </section> 
 
-        </main>
-    </div>    
+                <div id="right-about">
+                    <div class="right-about-heading">
+                        <h2>Learning from others experience</h2>
+                        <hr>
+                        <p>Organise your journey with tips and tricks used by others and shorten your steps to your success.</p>
+                    </div>
 
+                    <div class="right-about-heading">
+                        <h2>Meet other Brazilians</h2>
+                        <hr>
+                        <p>Be part of a huge community of Brazilians who left Brazil in search of a dream to live everywhere.</p>
+                    </div>
+                </div>    
+            <div id="center-about">Center</div>
+        </section>
+
+        <section class="module parallax parallax-2">
+            <div class="caption">
+                <span class="border">From Berlin to the world</span>
+            </div>
+        </section> 
+    </main>    
+
+    <!-- footer starts here --> 
     <footer class="footer">
         <p>Follow Us</p>
         <a href="https://www.youtube.com/channel/UCcd9GnDhuzzC1ELIS7cibuQ" target="_blank" rel="noopener">YouTube</a>

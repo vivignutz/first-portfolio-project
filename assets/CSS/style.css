@@ -5,45 +5,12 @@ html, body {
   margin: 0;
   padding: 0;
   border: none;
+  scroll-behavior: smooth;
   font-family: Lato, Merriweather;
   font-weight: 300;
-  overflow-wrap: break-word;  /* nicht sicher, ob es so ist */
 }
 
-body nav {
-  position: sticky;
-  top: 0;;
-}
-
-/* headings and logo */
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  background-color: #fff;  /* to be solved */
-  z-index:100000 !important;
-  position: sticky;
-}
-
-#logo {
-  float: left;
-  font-size: 280%;
-  margin-left: 30px;
-  position:fixed;
-  top: 0;
-  height: 100px;
-}
-
-img {
-  border-radius: 10%;
-  float: left;
-  width: 100px;
-  height: 100px;
-}
-
-/* nav links */
+/* navigation links */
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
@@ -58,26 +25,57 @@ img {
 
 #menu a {
   text-decoration: none;
-  color: inherit;
+  color: whitesmoke;
 }
 
 #menu a:hover {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #ff5c9d;
 }
 
 .active {
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid #ff5c9d;
 }
 
 h1 {
   color: #3a3a3a;
   font-weight: 900;
 }
+nav {
+  position: sticky; 
+  top: 0;
+}
 
-/* wrapper parallax images*/
-.wrapper {
+/* headings and logo */
+.header {
+  position: sticky;
+  top: 0;
   width: 100%;
-  margin: 0 auto;       /* 0 oben und unten // rechts und links zentralisieren */
+  height: 100px;
+  background-color: #3a3a3a;
+  opacity: 0.9;
+}
+
+#logo {
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
+  position: fixed;
+  top: 0;
+  height: 100px;
+  opacity: 1;
+}
+
+img {
+  border-radius: 10%;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+/* parallax container */
+.parallax-container {
+  width: 100%;
+  margin: 0 auto;       /* 0 top and bottom, left and right, centralized */
 }
 
 .main {
@@ -174,27 +172,55 @@ section.module.parallax h2 {
 
 /* why to follow this podcast? */
 #module-parallax-text {
-  height 600px;
+  height: inherit;
 }
 
 #left-about {
   padding-top: 30px;
   width: 33%;
   float: left;
-  background-color: blue;
 }
 
 #right-about {
   padding-top: 30px;
   width: 33%;
   float: right;
-  background-color: silver;
 }
 
 #center-about {
   width: 33%;
   margin: 0 auto;
   background-color: green;
+}
+
+hr {
+  border-top: #3a3a3a;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading {
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading {
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+  text-align: right;
+}
+
+.right-about-heading p {
+  text-align: right;
 }
 
 
