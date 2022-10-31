@@ -75,12 +75,17 @@ img {
 /* parallax container */
 .parallax-container {
   width: 100%;
-  margin: 0 auto;       /* 0 top and bottom, left and right, centralized */
-}
-
-.main {
+  margin: 0 auto;
   display: block;
   background-color: #fff;
+}
+
+#module-parallax-parallax-1 {
+
+}
+
+#border {
+
 }
 
 .container {
@@ -139,18 +144,20 @@ section.module.parallax-2 {
   background-image: url('../images/berlin-brandenburger-tor.jpg');
 }
 
-.caption span.border {
+.caption h1.border {
   background-color: #3a3a3a;
   color: #fff;
-  padding: 18px;
+  padding: 7px;
   padding-left: 20%;
   font-size: 48px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 10px;
   opacity : 0.8
-
 }
+
+
+
 
 section.module.parallax.parallax h1 {
   color: #fff;
@@ -259,8 +266,6 @@ hr {
 }
 
 .social-networks i {
-  font-size: 160%
-  margin: 1%;
-  padding: 5%;
+  padding: 25%;
   color: #FF3384
-}
+ }
