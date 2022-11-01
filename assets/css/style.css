@@ -140,7 +140,7 @@ section.module.parallax-2 {
   background-image: url('../images/berlin-brandenburger-tor.jpg');
 }
 
-.caption h1,h2.border {
+#caption h1,h2.border {
   background-color: #3a3a3a;
   padding-left: 20%;
   font-size: 48px;
@@ -327,6 +327,7 @@ hr {
 }
 
 /* media queries */
+/* for large screens sizes 1200px */
 @media screen and (max-width: 1200px) {
   #module-parallax-text {
     width: 65%;
@@ -355,16 +356,9 @@ hr {
   hr {
     display: none;
   }
-
-  /* header and nav *
-  #header #branding, #menu, header nav, header nav li  {
-    float: none;
-    text-align: center;
-    width: 100%; 
-  } */
 }
 
-/* For medium screen sizes 950px wide and down */
+/* For screens sizes 950px wide and down */
 @media screen and (max-width: 950px) {
   #menu {
     clear: left;
@@ -372,8 +366,34 @@ hr {
     margin: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-  }  
+  }
+
+  #caption {
+    left: 0;
+  }
+
+  #module-parallax-text {
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+  }
+
+  .left-about-heading, .right-about-heading, .left-mission-heading, .right-mission-heading {
+    width: inherit;
+  }
+
+  .left-about-heading h3, .right-about-heading h3, .left-mission-heading h3, .right-mission-heading h3 {
+    width: 100%;
+    text-align: center;
+  }
 }
+
+.left-about-heading p, .right-about-heading p, .left-mission-heading p, .right-mission-heading p {
+  padding: 0 20px;
+  text-align: center;
+}
+
+
 
 /* footer */
   footer {
