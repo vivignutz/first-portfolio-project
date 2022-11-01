@@ -327,7 +327,7 @@ hr {
 }
 
 /* media queries */
-@media screen and (max-widht: 1200px) {
+@media screen and (max-width: 1200px) {
   #module-parallax-text {
     width: 65%;
     height: 1200px;
@@ -361,22 +361,18 @@ hr {
     float: none;
     text-align: center;
     width: 100%; 
-  }
-} /
+  } */
+}
 
 /* For medium screen sizes 950px wide and down */
-@media screen and (max-widht: 950px) {
-
+@media screen and (max-width: 950px) {
   #menu {
     clear: left;
     float: left;
     margin: 30px;
     margin-bottom: 20px;
     line-height: 25px;
-  } 
-
-  
-  
+  }  
 }
 
 /* footer */
@@ -395,5 +391,4 @@ hr {
 .social-networks i {
   padding: 25px;
   color: #ff5c9d
- }
-
+}
