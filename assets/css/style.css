@@ -355,8 +355,29 @@ hr {
   hr {
     display: none;
   }
-}
 
+  /* header and nav *
+  #header #branding, #menu, header nav, header nav li  {
+    float: none;
+    text-align: center;
+    width: 100%; 
+  }
+} /
+
+/* For medium screen sizes 950px wide and down */
+@media screen and (max-widht: 950px) {
+
+  #menu {
+    clear: left;
+    float: left;
+    margin: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  } 
+
+  
+  
+}
 
 /* footer */
   footer {
@@ -375,3 +396,4 @@ hr {
   padding: 25px;
   color: #ff5c9d
  }
+
