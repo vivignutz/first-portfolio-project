@@ -232,7 +232,8 @@ hr {
 }
 
 .left-about-heading h3 {
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
 }
 
 .left-about-heading p {
@@ -240,7 +241,8 @@ hr {
 }
 
 .right-about-heading h3 {
-  text-align: right;
+  text-align: center;
+  font-weight: bold;
 }
 
 .right-about-heading p {
@@ -307,7 +309,8 @@ hr {
 }
 
 .left-mission-heading h3 {
-  text-align: left;
+  text-align: center;
+  font-weight: bold;
 }
 
 .left-mission-heading p {
@@ -315,7 +318,8 @@ hr {
 }
 
 .right-mission-heading h3 {
-  text-align: right;
+  text-align: center;
+  font-weight: bold;
 }
 
 .right-mission-heading p {
@@ -393,7 +397,15 @@ hr {
 
 /* footer */
   footer {
-    height: 100px;
+    height: 150px;
+    padding: 20px 5px;
+    background: #eee;
+    margin-top: 100px;
+}
+
+#footer {
+  text-align: center;
+  color: #ff5c9d;
 }
 
 .social-networks {
