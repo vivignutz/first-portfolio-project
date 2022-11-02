@@ -51,6 +51,8 @@ nav {
 
 /* headings and logo */
 .header {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
@@ -127,7 +129,7 @@ section.module.parallax-2 {
   background-image: url('../images/berlin-brandenburger-tor.jpg');
 }
 
-#caption #caption2 h1, h2 .border {
+.border {
   background-color: #3a3a3a;
   font-size: 48px;
   letter-spacing: 10px;
@@ -356,6 +358,7 @@ hr {
     margin: 30px;
     margin-bottom: 20px;
     line-height: 25px;
+    display: flex;
   }
 
   #caption {
