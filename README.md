@@ -92,7 +92,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
     - This div is styled in CSS with a backgound colour with oppacity for a transparency, that makes it possible to read the name.
 
-    - This image is scrolling in a parallax effect and was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
+    - This image is scrolling in a parallax effect and was took from the free Copyright data bank of Freepik, in .jpeg format.
 
 ![alt text](assets/images/third_section_gif.gif)
 
@@ -106,7 +106,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
 		 - the div#right-mission has the same display, and presents the host of the project;
          
-		 - the div#center-abou a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
+		 - the div#center-abou a .jpeg format general photo of a podcast, took from the free Copyright data bank of Freepik, with a solid border around the photo.
   
 ![alt text](assets/images/4th_section_mission_and_host.jpg)
 
@@ -164,6 +164,7 @@ Added fallback font sans-serif.
 - [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
 - [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [Gif Cap:](https://gifcap.dev/) To record my screen and transfor in a .gif format.
+- [Freepik:](https://freepik.com/) Free Image Data Bannk.
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
 
 
@@ -248,4 +249,4 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 
 ### Acknowledgements
 
-- a huge thank to my mentor at Code Institute for helpful feedbacks and to the tutors for helping me while the process.
+- A huge thank to my mentor at Code Institute for helpful feedbacks and to the tutors for helping me while the process.
