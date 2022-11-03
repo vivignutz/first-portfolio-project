@@ -235,7 +235,7 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
   - Under "Source" > "Main" > "Root".
   - Click on "Save".
 
-![GitHub](assets/media/deplyment.jpg´p-)
+![GitHub](assets/images/deployment.jpg)
 
 
 ## Credits
