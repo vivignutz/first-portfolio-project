@@ -12,13 +12,6 @@ Moreover, the whole project helped me to start my thoughts from the programming 
 ![alt text](assets/images/responsive_design.jpg)
 
 
-## Content section
-
-XXXXXXX
-
-
-
-
 ## User Experience (UX)
 
 Thinking of the user, the PodNagringa Podcast aims to supply the lack of information regarding bureaucracy, housing, health insurance, education, working, taxes, etc, that all Brazilians immigrants in Europe face.
@@ -178,16 +171,16 @@ Added fallback font sans-serif.
 
 ### Browser testing
 
-- The tests were done using Windows 11 Pro and Android 11 devices. 
-
 - The browsers I have used to test the page were Chrome, Brave and Microsoft Edge. The same functioning could be seen.
 
-- I have tested this page works on iOS devices using Chrome and Safari browsers (iPhone).
+- The tests were done using Windows 11 Pro and Android 11 device. 
+
+- I have tested this page works on iOS devices using Safari browser (iPad).
 
 
 ### Responsivness
 
-- I have tested that this page works on different screen sizes from iPhone 5 (320px wide) and very large screens like 5K iMac Pro (5120 x 2880 px).
+- I have tested that this page works on different screen sizes from Samsung Galaxi S8+ (360px wide) and large screens like 4k.
 
 - The Chrome developer tool have been used to check the responsivness of the website. 
 
@@ -197,15 +190,15 @@ Added fallback font sans-serif.
 For Markup Validator I have use the W3C Validator and for CSS, the W3C CSS Validator Services to validate all pages of the project to ensure there were no syntax errors in there.
 
 - W3C Markup Validator
-![HTML results](assets/media/validator_w3.png)
+![HTML results](assets/images/validator_w3.png)
 
 - W3C CSS Validator
-![CSS results](assets/media/css.png)
+![CSS results](assets/images/jigsaw-w3-validator.png)
 
 I have confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome developer tools.
 
 - Lighthouse
-![Lighthouse](assets/media/lighthouse.png)
+![Lighthouse](assets/images/lighthouse_test.jpg)
 
 
 ### Further Testing
@@ -255,4 +248,4 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 
 ### Acknowledgements
 
-- My mentor at Code Institute for helpful feedback and the tutors for helping me.
+- a huge thank to my mentor at Code Institute for helpful feedbacks and to the tutors for helping me while the process.
