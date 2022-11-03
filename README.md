@@ -6,27 +6,18 @@ The goal of the website is to present a first impression of the NaGringa Podcast
 
 My motivation for this project was to start the branding process of PodNagringa Podcast, given that it is a real project that is being planned and developed concurrently by me now.
 
+This first project put me in touch with various uses of the programming languages HTML, CSS and also how to use GitHub and Gitpod, as well as thinking about the user's perspective using UX fundamentals. 
+Moreover, the whole project helped me to start my thoughts from the programming logic perspective.
+
 ![alt text](assets/images/responsive_design.jpg)
 
 
 ## Content section
 
+XXXXXXX
 
 
 
-
-
-
-
-
- 
-
-
-
-
-
-This first project put me in touch with various uses of the programming languages HTML, CSS and also how to use GitHub and Gitpod, as well as thinking about the user's perspective using UX fundamentals. 
-Moreover, the whole project helped me to start my thoughts from the programming logic perspective.
 
 ## User Experience (UX)
 
@@ -103,11 +94,15 @@ But with all information and tips coming from the guests of this podcast, whose 
 -   __F04 Parallax Third Section__
 
     - This third section has a full-screen background image, which shows the Brandenburger Gate in Berlin, Germany. 
+
     - On this section is a div with an h1 with the sentence "From Berlin to the world". Both photo and sentence in this section refer to the city where the project will take place.
+
     - This div is styled in CSS with a backgound color with oppacity for a transparency, that makes it possible to read the name.
+
     - This image is scrolling in a parallax effect and was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
 
-foto
+[alt text](assets/images/third_section_gif.gif)
+
 
 - __F05 Parallax Fourth Section__   
 
