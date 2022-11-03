@@ -1,108 +1,114 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PodNagringa Podcast
 
-Welcome vivignutz,
+For the first milestone task with Code Institute, I created a one-page website that features the "NaGringa Podcast", an actual podcast project that will go live later in 2022.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The goal of the website is to present a first impression of the NaGringa Podcast project, informing its mission, who is behind the work, its social networks and also a contact form for potential interested parties.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+My motivation for this project was to start the branding process of PodNagringa Podcast, given that it is a real project that is being planned and developed concurrently by me now. 
 
-## Gitpod Reminders
+﻿![alt text]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Content section
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+The PodNagringa Podcast aims to supply the lack of information regarding bureaucracy regarding housing, health insurance, education, working, taxes, etc, that all Brazilians immigrants in Europe face, with information and tips coming from the guests, also Brazilians, who already live in Europe, whose are visiting or living in Berlin, where the episodes will be filmed.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+This first project put me in touch with various uses of the programming languages HTML, CSS and also how to use GitHub and Gitpod, as well as thinking about the user's perspective using UX fundamentals. 
+Moreover, the whole project helped me to start my thoughts from the programming logic perspective.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## User Experience (UX)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+-   #### First impressions of the users
+	
+	-  First of all, the tag line with the sentence "PodNagringa: The podcast of the Brazilians in Europe" is showing, when the cursor comes throught the brownser tab. It permits the visitor recognize in first instance which website is in this tab, when this visitor has many tabs opened in his/her device.
+    -  As a first time visitor, I could immediately recognize that, it is a podcast about Brazilians abroad due to the name "PodNagringa". 
+    - As a first time visitor, I could easily scroll the one-page website and navigate through its links, being in touch with its simple and objective content, which shows a project of a podcast is to present the project and initiate contacts for the near future. 
+    -  As a first time visitors, I could navigate throughout the site, regardless of screen size.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   #### Returning Visitor Goals
+    
+    -  As a returning visitor, I want to get in touch with the podcast's host and could send my message via contact-form present in the link "Get in Touch" of the menu.
+    -  As a returning visitor, want to visit the social media of the podcast, to know more about the launch date of the podcast.
+    -  As a returning visitor, I want to be able to contact the owner of the site.
+    
+-   #### Frequent User Goals
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+    -  As a Frequent User, I want to see if there are any updates about the new guests or even write a message to be one of the guests.
+    
+## Features
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Existing Features
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   __F01 Header with Navigation Links__
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+	- The header is featured at the top of the page and includes a logo and navigation links.
+	-  The logo is placed in the left corner and a menu is placed in the right corner.
+	-  The logo image is a .pgn file and was designed by me with https://www.canva.com/. When the logo is clicked on it will take the user to the top of the page.
+    - The navigation links includes a Home page, About and Get in Touch links which are responsive on multiple screen sizes. On small screens (e.g. mobile devices) the Home, Menu and Contact links move to under the Logo.
+    - The jeader uses position sticky, it allows the user to easily navigate as it will always be visible when scrolling the page.
+-   The navigation links has a colour change underline when hovered over.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+(nav bar e logo pic)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   __F02 Parallax First Section__
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    - This first section has a full-screen background image, which shows a setup of a podcast referring to the project idea. 
+    - On this section is a div with an h1 with the name of the podcast project. This div is styled in CSS with a backgound color with oppacity for a transparency, that makes it possible to read the name.
+    - This image is scrolling in a parallax effect, bringing a clean visual and a soft impression to the visitors about the project; the image was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+gip parallax
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- __F03 Parallax Second Section__   
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+	- The second section shows the idea of the podcast project with 4 reeasons why to follow the podcast. This sentences shows more about the project.
+	- This whole parallax section was build with 3 divs:
+		 - the div#left-about shows 2 motivation sentences built with an h3 and a paragraph; 
+		 - the div#right-about has the same display, and
+		 - the div#center-about shows a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+general idea and the host of the podcast. It shows to the visitors which expectations they can have about the near future project. 
 
-## FAQ about the uptime script
+-   __F04 Parallax Third Section__
 
-**Why have you added this script?**
+    - This third section has a full-screen background image, which shows the Brandenburger Gate in Berlin, Germany. 
+    - On this section is a div with an h1 with the sentence "From Berlin to the world". Both photo and sentence in this section refer to the city where the project will take place.
+    - This div is styled in CSS with a backgound color with oppacity for a transparency, that makes it possible to read the name.
+    - This image is scrolling in a parallax effect and was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+foto
 
-**How will this affect me?**
+- __F05 Parallax Fourth Section__   
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+    - The fourth section is linked to the "About" of the navigation menu and presents the mission and the host of the podcast project.  
+    - This whole parallax section was build with 3 divs:
+		 - the div#left-mission shows presents the mission of this podcast project in a sentence built with an h3 and a paragraph;
+		 - the div#right-mission has the same display, and presents the host of the project;
+		 - the div#center-abou a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
+  
+  gif parallax e foto do container
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- __F06 Parallax Fifth Section__   
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    - The fifth container is linked to the "Get in Touch" (contact) of the navigation bar, and presents to two different ways of contact: a postal code from Berlin, and a contact form. 
+    - The 2 divs of this section are displayed namely "address" div and "form" div.
+    - The "address" div contains a postal code from Berlin, with a h3 "Contact" and a styled icon of Font Awesome icon (fa-location-dot). Below the postal code from Berlin there is a "call to action" paragraph message which invites visitors to be in touch and be part of the podcast.
+    - The "form" div was built with 2 textboxes (name and email), one textearea message block and an submit button.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- __F07 Footer__
 
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    - The footer is featured on all four pages and contains an unordered inline list, with four social media icons (YouTube, Instagram, Twitter and Facebook), which were linked with the real social medias of the podcast project. 
+    - The social media icons were took from Font Awesome icons and style with CSS. They are central positioned to offer to keep offering to the visitors a clear impression of the website. 
+    - Inside of the footer there is a div "footer" with the Copyright information, also centralized.
