@@ -71,7 +71,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
     - This first section has a full-screen background image, which shows a setup of a podcast referring to the project idea. 
 
-    - On this section is a div with an h1 with the name of the podcast project. This div is styled in CSS with a backgound color with oppacity for a transparency, that makes it possible to read the name.
+    - On this section is a div with an h1 with the name of the podcast project. This div is styled in CSS with a backgound colour with oppacity for a transparency, that makes it possible to read the name.
 
     - This image is scrolling in a parallax effect, bringing a clean visual and a soft impression to the visitors about the project; the image was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
 
@@ -88,7 +88,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
 		 - the div#center-about shows a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
 
-[alt text](assets/images/2nd_section_reasons_why.jpg)
+![alt text](assets/images/2nd_section_reasons_why.jpg)
 
 
 -   __F04 Parallax Third Section__
@@ -97,11 +97,11 @@ But with all information and tips coming from the guests of this podcast, whose 
 
     - On this section is a div with an h1 with the sentence "From Berlin to the world". Both photo and sentence in this section refer to the city where the project will take place.
 
-    - This div is styled in CSS with a backgound color with oppacity for a transparency, that makes it possible to read the name.
+    - This div is styled in CSS with a backgound colour with oppacity for a transparency, that makes it possible to read the name.
 
     - This image is scrolling in a parallax effect and was took from the free Copyright data bank of https://www.freepik.com/, in .jpeg format.
 
-[alt text](assets/images/third_section_gif.gif)
+![alt text](assets/images/third_section_gif.gif)
 
 
 - __F05 Parallax Fourth Section__   
@@ -115,7 +115,7 @@ But with all information and tips coming from the guests of this podcast, whose 
          
 		 - the div#center-abou a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
   
-[alt text](assets/images/4th_section_mission_and_host.jpg)
+![alt text](assets/images/4th_section_mission_and_host.jpg)
 
 
 - __F06 Parallax Fifth Section__   
@@ -128,7 +128,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
     - The "form" div was built with 2 textboxes (name and email), one textearea message block and an submit button.
 
-[alt text](assets/images/5th_section_contact_form.jpg)
+![alt text](assets/images/5th_section_contact_form.jpg)
 
 
 - __F07 Footer__
@@ -139,7 +139,7 @@ But with all information and tips coming from the guests of this podcast, whose 
 
     - Inside of the footer there is a div "footer" with the Copyright information, also centralized.
 
-[alt text](assets/images/footer_social_media_links.jpg)
+![alt text](assets/images/footer_social_media_links.jpg)
 
 
 - __F08 Meta Data__
@@ -156,11 +156,10 @@ A form submitted feature.
 
 - I have used different shadow of pink and a soft grey, in order to follow the color of the logo. But beside of that, I kept the webiste clear in general. 
 
-- For the text colour I dhoose to let as default because of the grey used in the head.
+- For the text colour I choose let as default because of the grey used in the head.
 
-- Scalable Vector Graphic were used for background images with a fallback background colour if image should fail to load.
+- I have use a parallax-effect in order to provide some movement at the website, which was build only with HTML5 and CSSs languages.
 
-- Three svg-waves were used to improve the overall design.
 
 ## Technologies Used
 
@@ -169,30 +168,36 @@ A form submitted feature.
 - [Google Fonts:](https://fonts.google.com/) To import font family ’Poppins’ into the style.css file which is used on all pages.
 Added fallback font sans-serif.
 - [Font Awesome:](https://fontawesome.com/) Was used in header and contact section to add icons for aesthetic and UX purposes.
-- [SVG Backgrounds:](https://svgbackgrounds.com/) Scalable Vector Graphic used for main background and on page-wrapper. Should the background image fail there is a fallback background color set so that text will be readable and page still functions.
-- [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave, used in both body and about section.
-- [Tiny PNG:](https://tinypng.com/) Compressing images to smaller sizes.
-- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
-- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gif Cap:](https://gifcap.dev/) To record my screen and transfor in a .gif format.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
 
-## Testing
+
+## Tests
 
 ### Browser testing
-- I have tested that this page works using macOS (Macbook Air).
-- I have tested that this page works in the following browsers using macOS: Chrome, Safari and Firefox.
-- I have tested this page works on iOS devices using Safari browser (Iphone X and iPad Air).
+
+- The tests were done using Windows 11 Pro and Android 11 devices. 
+
+- The browsers I have used to test the page were Chrome, Brave and Microsoft Edge. The same functioning could be seen.
+
+- I have tested this page works on iOS devices using Chrome and Safari browsers (iPhone).
+
 
 ### Responsivness
-- Chrome developer tool have been used to check the responsivness.
+
 - I have tested that this page works on different screen sizes from iPhone 5 (320px wide) and very large screens like 5K iMac Pro (5120 x 2880 px).
+
+- The Chrome developer tool have been used to check the responsivness of the website. 
+
 
 ### Validator Testing 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there.
+For Markup Validator I have use the W3C Validator and for CSS, the W3C CSS Validator Services to validate all pages of the project to ensure there were no syntax errors in there.
 
 - W3C Markup Validator
-![HTML results](assets/media/html.png)
+![HTML results](assets/media/validator_w3.png)
 
 - W3C CSS Validator
 ![CSS results](assets/media/css.png)
@@ -202,36 +207,43 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 - Lighthouse
 ![Lighthouse](assets/media/lighthouse.png)
 
+
 ### Further Testing
 
-- I have tested that the links in the header works correctly.
-- I have tested that the navigation links work and the user is directed to the correct sections of the page.
-- I have tested that the navigation links change text colour when hovering over.
-- I have tested that the external link in the about section opens in a new tab and that the address is correct.
+- Navigation links on header: all works correctly.
+
+- TUnderline colour-effect in the navigation bar: when hovering over, works correctly.
+
+- External links to the four social media channels: works correctly.
+
 - I have tested that name, email and message is required to submit the form in the contact section.
+
 - I have tested that the email input field must contain @ symbol to submit the form in the contact section.
-- I have tested that the form submit button change text colour when hovering over.
+
+- I have tested that the form submit button word "Sbumit" changes the colour of the text when hovering over.
 
 ### Solved bugs
 
-- When testing on iPhone, I realized that background-attachment: fixed used on the hero image was not displaying correct.
-  Property value local was added in the media query to fix this issue.
+- When testing on the tablet screen (820 x 1180 px), the Parallax Fourth Section was not configured for responsive pages like Prallax Second Section one. I realized that the div had a "class" and not an "id". After this change, the bug was fixed and responde as expected. 
 
-- When testing different screen sizes using Chrome developer tools, I realized that the submit button need to stand out more for accessibility.
-  I increased the padding of the button and changed the background colour to aliceblue.
+- Property value local was added in the media query to fix this issue.
 
-- When using Safari browser, I realized that text-decoration underline did not work at all. This was removed in favor of border-bottom on the link to bonsai empire in the about section.
+- When testing on Brave browser using the developer tools, I realized that the Social Media icons were located to the left side and not centralized. I fixed this bug decreasing the padding.
+
+- The logo was not styck inside of the head. I changed the positio to fixed.
+
 
 ## Deployment
 
-- The site was deployed to GitHub page. The steps to deploy are as follows:
-  - Log in to GitHub and locate the GitHub Repository.
-  - In the GitHub repository, navigate to the "Settings" tab.
-  - In Settings, choose "Pages" from the left hand menu.
-  - Under "Source", select branch "Main" and select folder "(Root)".
-  - Click Save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The site was deployed to GitHub page, according to the steps:
 
-![GitHub](assets/media/github.png)
+  - Log in to GitHub > GitHub repository > first-portfolio-project.
+  - "Settings" > "Pages" (on the left hand menu).
+  - Under "Source" > "Main" > "Root".
+  - Click on "Save".
+
+![GitHub](assets/media/deplyment.jpg´p-)
+
 
 ## Credits
 
@@ -240,19 +252,7 @@ I have confirmed that the colours and fonts chosen are easy to read and accessib
 - [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
 - [Gif Cap:](https://gifcap.dev/) To record my screen in .fig format.
 
-### Code
-
 
 ### Acknowledgements
 
 - My mentor at Code Institute for helpful feedback and the tutors for helping me.
-
-
-
-
-
-
-
-
-
-
