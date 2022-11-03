@@ -112,21 +112,147 @@ But with all information and tips coming from the guests of this podcast, whose 
 		 - the div#left-mission shows presents the mission of this podcast project in a sentence built with an h3 and a paragraph;
 
 		 - the div#right-mission has the same display, and presents the host of the project;
-         q
+         
 		 - the div#center-abou a .jpeg format general photo of a podcast, took from the free Copyright data bank of https://www.freepik.com/, with a solid border around the photo.
   
-  gif parallax e foto do container
+[alt text](assets/images/4th_section_mission_and_host.jpg)
+
 
 - __F06 Parallax Fifth Section__   
 
-    - The fifth container is linked to the "Get in Touch" (contact) of the navigation bar, and presents to two different ways of contact: a postal code from Berlin, and a contact form. 
+    - The fifth container is linked to the "Get in Touch" (contact) of the navigation bar, and presents two different ways of contact: a postal code from Berlin, and a contact form. 
+
     - The 2 divs of this section are displayed namely "address" div and "form" div.
+
     - The "address" div contains a postal code from Berlin, with a h3 "Contact" and a styled icon of Font Awesome icon (fa-location-dot). Below the postal code from Berlin there is a "call to action" paragraph message which invites visitors to be in touch and be part of the podcast.
+
     - The "form" div was built with 2 textboxes (name and email), one textearea message block and an submit button.
+
+[alt text](assets/images/5th_section_contact_form.jpg)
 
 
 - __F07 Footer__
 
-    - The footer is featured on all four pages and contains an unordered inline list, with four social media icons (YouTube, Instagram, Twitter and Facebook), which were linked with the real social medias of the podcast project. 
-    - The social media icons were took from Font Awesome icons and style with CSS. They are central positioned to offer to keep offering to the visitors a clear impression of the website. 
+    - The footer is featured underneath the whole website and contains an unordered inline list, with four social media icons (YouTube, Instagram, Twitter and Facebook), which were linked with the real social medias pages of the podcast project. 
+
+    - The social media icons were took from Font Awesome icons and style with CSS. They are central positioned to offer to keep offering to the visitors a clear impression of the website.
+
     - Inside of the footer there is a div "footer" with the Copyright information, also centralized.
+
+[alt text](assets/images/footer_social_media_links.jpg)
+
+
+- __F08 Meta Data__
+
+PodNagringa: The podcast of the Brazilians in Europe.
+
+
+- __F09 Features Left to Implement__
+
+A Fav icon.
+A form submitted feature.
+
+## Design
+
+- I have used different shadow of pink and a soft grey, in order to follow the color of the logo. But beside of that, I kept the webiste clear in general. 
+
+- For the text colour I dhoose to let as default because of the grey used in the head.
+
+- Scalable Vector Graphic were used for background images with a fallback background colour if image should fail to load.
+
+- Three svg-waves were used to improve the overall design.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- [Google Fonts:](https://fonts.google.com/) To import font family ’Poppins’ into the style.css file which is used on all pages.
+Added fallback font sans-serif.
+- [Font Awesome:](https://fontawesome.com/) Was used in header and contact section to add icons for aesthetic and UX purposes.
+- [SVG Backgrounds:](https://svgbackgrounds.com/) Scalable Vector Graphic used for main background and on page-wrapper. Should the background image fail there is a fallback background color set so that text will be readable and page still functions.
+- [SVG Wave Generator:](https://softr.io/tools/svg-wave-generator/) Used to generate a gradient SVG wave, used in both body and about section.
+- [Tiny PNG:](https://tinypng.com/) Compressing images to smaller sizes.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [Git](https://git-scm.com/) Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- [GitHub:](https://github.com/) GitHub is used to store the projects code after being pushed from Git.
+
+## Testing
+
+### Browser testing
+- I have tested that this page works using macOS (Macbook Air).
+- I have tested that this page works in the following browsers using macOS: Chrome, Safari and Firefox.
+- I have tested this page works on iOS devices using Safari browser (Iphone X and iPad Air).
+
+### Responsivness
+- Chrome developer tool have been used to check the responsivness.
+- I have tested that this page works on different screen sizes from iPhone 5 (320px wide) and very large screens like 5K iMac Pro (5120 x 2880 px).
+
+### Validator Testing 
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate all pages of the project to ensure there were no syntax errors in there.
+
+- W3C Markup Validator
+![HTML results](assets/media/html.png)
+
+- W3C CSS Validator
+![CSS results](assets/media/css.png)
+
+I have confirmed that the colours and fonts chosen are easy to read and accessible by running it through lighthouse in Chrome developer tools.
+
+- Lighthouse
+![Lighthouse](assets/media/lighthouse.png)
+
+### Further Testing
+
+- I have tested that the links in the header works correctly.
+- I have tested that the navigation links work and the user is directed to the correct sections of the page.
+- I have tested that the navigation links change text colour when hovering over.
+- I have tested that the external link in the about section opens in a new tab and that the address is correct.
+- I have tested that name, email and message is required to submit the form in the contact section.
+- I have tested that the email input field must contain @ symbol to submit the form in the contact section.
+- I have tested that the form submit button change text colour when hovering over.
+
+### Solved bugs
+
+- When testing on iPhone, I realized that background-attachment: fixed used on the hero image was not displaying correct.
+  Property value local was added in the media query to fix this issue.
+
+- When testing different screen sizes using Chrome developer tools, I realized that the submit button need to stand out more for accessibility.
+  I increased the padding of the button and changed the background colour to aliceblue.
+
+- When using Safari browser, I realized that text-decoration underline did not work at all. This was removed in favor of border-bottom on the link to bonsai empire in the about section.
+
+## Deployment
+
+- The site was deployed to GitHub page. The steps to deploy are as follows:
+  - Log in to GitHub and locate the GitHub Repository.
+  - In the GitHub repository, navigate to the "Settings" tab.
+  - In Settings, choose "Pages" from the left hand menu.
+  - Under "Source", select branch "Main" and select folder "(Root)".
+  - Click Save and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+![GitHub](assets/media/github.png)
+
+## Credits
+
+- [Google Fonts:](https://fonts.google.com/) Font family ’Lato’ used on all pages.
+- [Font Awesome:](https://fontawesome.com/) Oly used in fifth section to add icons at the style.
+- [Am I Responsive:](http://ami.responsivedesign.is) Checking the responsive.
+- [Gif Cap:](https://gifcap.dev/) To record my screen in .fig format.
+
+### Code
+
+
+### Acknowledgements
+
+- My mentor at Code Institute for helpful feedback and the tutors for helping me.
+
+
+
+
+
+
+
+
+
+
