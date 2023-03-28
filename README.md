@@ -11,6 +11,7 @@ Moreover, the whole project helped me to start my thoughts from the programming 
 
 ![alt text](assets/images/responsive_design.jpg)
 
+A preview of the project can be seen here: https://8000-vivignutz-firstportfoli-b3ih5ed6xtf.ws-eu92.gitpod.io/
 
 ## User Experience (UX)
 
